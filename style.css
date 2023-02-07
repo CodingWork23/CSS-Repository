@@ -1,0 +1,12 @@
+.schrift-1 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif; /* Schriftart */
+}
+
+.schrift-2 {
+    font-weight: 300;
+}
+
+.schrift-3 {
+    font-size: 16px;
+}
