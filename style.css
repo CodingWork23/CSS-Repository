@@ -1,12 +1,12 @@
-.schrift-1 {
-    color: red;
-    font-family: Arial, Helvetica, sans-serif; /* Schriftart */
+header {
+    height: 100px;
+    box-shadow: 4px 3px 20px 1px rgba(0,0,0,1); /* Schatten */
 }
 
-.schrift-2 {
-    font-weight: 300;
+body {
+    margin: 0;   /* Außenabstand */
 }
 
-.schrift-3 {
-    font-size: 16px;
+a {
+    margin-right: 16px;
 }
