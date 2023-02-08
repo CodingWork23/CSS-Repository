@@ -1,12 +1,43 @@
 header {
     height: 100px;
     box-shadow: 4px 3px 20px 1px rgba(0,0,0,1); /* Schatten */
+    display: flex;
+    justify-content: flex-end;  /* Position der x-Achse */
+    align-items: center;        /* Position der y-Achse */
 }
 
 body {
     margin: 0;   /* Außenabstand */
 }
 
-a {
+header a {
+    color: blueviolet;
+    text-decoration: none;
     margin-right: 16px;
+    font-size: 25px;
+    
+}
+
+header a:hover {    /* hover = aktiv, wenn Courser drauf ist */
+    color: rgb(234, 0, 255);
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.container a {
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    padding: 10px;          /* innerer Abstand */
+    border: 1px solid black;    /* Kasten */
+    border-radius: 25%;     /* Kantenform ändern */
+}
+
+.container a:hover {
+    background-color: rgb(193, 129, 253);
+    color: rgb(100, 100, 100);
 }
