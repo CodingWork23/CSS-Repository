@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: rgb(228, 226, 226);
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -31,6 +32,11 @@ h1 {
 /* Bild */
 .portrait {
     width: 100%;
-    background-color: gray;
+    
     padding: 16px;
+}
+
+.img-container {
+    background-color: white;
+    
 }
