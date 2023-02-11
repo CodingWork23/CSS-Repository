@@ -1,12 +1,22 @@
+/* allgemein */
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(228, 226, 226);
-    padding-left: 100px;
-    padding-right: 100px;
+    margin: 0px;
 }
 
 h1 {
     color: red;
+}
+
+header {
+    background-color: lightblue;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 /* navbar */
@@ -16,12 +26,16 @@ h1 {
     align-items: center;
 }
 
+.berlin {
+    color: grey;
+    font-size: 47px;
+}
+
 .link {
     margin-left: 15px;
     text-decoration: none;
     color: black;
     font-size: 20px;
-    font-weight: bold;
 }
 
 .link:hover {
@@ -29,14 +43,54 @@ h1 {
     text-decoration: underline;
 }
 
-/* Bild */
+/* bild */
 .portrait {
     width: 100%;
-    
-    padding: 16px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
 }
 
 .img-container {
     background-color: white;
-    
+    padding: 16px;
+}
+
+/* unterer bereich */
+.x-padding {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.text-container {
+    background-color: rgb(216, 216, 216);
+    padding: 10px;
+}
+
+.map-google {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.maps-frame {
+    border: 1px solid black;
+    height: 350px;
+    width: 70%;
+}
+
+.maps-right {
+    width: 30%;
+    margin-left: 16px;
+}
+
+
+
+
+
+
+.impressum {
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
