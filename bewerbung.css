@@ -13,10 +13,22 @@ header {
     background-color: lightblue;
     padding-left: 50px;
     padding-right: 50px;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid #888;
 }
 
 .bold {
     font-weight: bold;
+}
+
+.block {
+    display: block;
+}
+
+.white-box {
+    background-color: white;
+    padding: 16px;
 }
 
 /* navbar */
@@ -43,22 +55,25 @@ header {
     text-decoration: underline;
 }
 
+.line {
+    width: 100%;
+    border: 1px solid #888;
+}
+
 /* bild */
 .portrait {
     width: 100%;
     height: 400px;
     object-fit: cover;
     object-position: center;
-    display: block;
 }
 
 .img-container {
-    background-color: white;
-    padding: 16px;
+    margin-bottom: 50px;
 }
 
 /* unterer bereich */
-.x-padding {
+.x-margin {
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -85,12 +100,34 @@ header {
     margin-left: 16px;
 }
 
+/* Infos */
+.info-box {
+    margin-bottom: 50px;
+}
 
+.box-list {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-img {
+    width: 40%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid #888;
+}
+
+.box-text {
+    width: 60%;
+}
+    
 
 
 
 
 .impressum {
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }

@@ -20,23 +20,25 @@
         <div class="navbar">
             <h1>BEWERBUNGSFOTOS<br><span class="berlin">BERLIN-MITTE</span></h1>
             <div class="bold">
-                <a class="link" href="#">Infos</a>
-                <a class="link" href="#">Über uns</a>
-                <a class="link" href="#">Produkte</a>
-                <a class="link" href="#">Standort</a>
+                <a class="link" href="#start">Start</a>
+                <a class="link" href="#standort">Standort</a>
+                <a class="link" href="#infos">Infos</a>
+                <a class="link" href="#überUns">Über uns</a>
             </div>
         </div>
     </header>
+    <div id="start"></div>
 
     <!-- portrait -->
-    <div class="img-container x-padding">
-    <img class="portrait" src="img/DIGF16277.jpg" alt="foto nicht geladen">
+    <div class="img-container white-box x-margin">
+    <img class="portrait block" src="img/DIGF16277.jpg" alt="foto nicht geladen">
 
         <div class="text-container bold">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, natus.
         </div>
 
-        <div class="map-google">
+        <!-- Google maps mit Text -->
+        <div id="standort" class="map-google">
             <iframe class="maps-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1214.8394762893954!2d13.34337038420877!3d52.484948389056704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a85042a0afb545%3A0x38de345dd266c33!2sRathaus%20Sch%C3%B6neberg!5e0!3m2!1sde!2sde!4v1676104130453!5m2!1sde!2sde" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             <div class="text-container maps-right">
@@ -45,9 +47,32 @@
         </div>
     </div>
 
+    <!-- Infos -->
+    <div id="infos" class="info-box x-margin">
+        <h1>Infos über unseren Company</h1>
+        <div class="white-box block">
+            <div class="text-container">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eum quidem cupiditate eius sed provident explicabo, autem nulla dolores veritatis officia molestias doloribus? Commodi ducimus vitae aperiam minus recusandae debitis ratione nihil optio, explicabo ad cum consequuntur vero. Qui, fugit!
+            </div>
+            <div class="box-list">
+                <img class="box-img" src="img/1-img-box.jpg" alt="">
+                
+                <div class="box-text text-container">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil ex itaque aliquid voluptas facere quisquam fugiat, optio ea earum esse enim, voluptatem consequuntur obcaecati. Voluptatibus explicabo corrupti commodi exercitationem ea quam dignissimos sit id molestiae.
+                </div>
+            </div>
+            <div class="box-list">
+                <span class="box-text text-container">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum a sapiente eveniet praesentium voluptates, nisi saepe temporibus inventore. Iure magnam atque enim vero maiores nostrum sequi autem, accusantium vel cupiditate sed sint inventore omnis eum possimus placeat perferendis eaque blanditiis.
+                </span> 
+                <img class="box-img" src="img/2-img-box.jpg" alt="">
+            </div>
+        </div>
+    </div>
 
 
-    <div class="impressum x-padding">
+    <hr>
+    <div class="impressum x-margin">
         © Imaginery Company 2023  |  <a class="link" href="#">Impressum</a>
     </div>
 </body>
