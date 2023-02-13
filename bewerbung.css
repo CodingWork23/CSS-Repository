@@ -9,10 +9,16 @@ h1 {
     color: red;
 }
 
+i {
+    font-size: 30px;
+    color: white;
+}
+
 header {
     background-color: lightblue;
     padding-left: 50px;
     padding-right: 50px;
+    height: 150px;
     position: sticky;
     top: 0;
     border-bottom: 2px solid #888;
@@ -122,6 +128,27 @@ header {
 .box-text {
     width: 60%;
 }
+
+.card-box {
+    color: gold;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    width: 50%;
+    font-size: 25px;
+    padding: 10px;
+    margin-right: 16px;
+    margin-top: 16px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-text {
+    font-weight: bold;
+    width: 85%;
+}
+
+
     
 
 
