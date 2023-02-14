@@ -24,6 +24,10 @@ header {
     border-bottom: 2px solid #888;
 }
 
+.margin-top {
+    margin-top: 16px;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -148,6 +152,36 @@ header {
     width: 85%;
 }
 
+/* Über uns */
+.über-uns {
+    margin-bottom: 50px;
+}
+
+.img-height {
+    height: 400px;
+}
+
+.team-box {
+    background-color: white;
+    width: 33%;
+    padding: 10px;
+    box-shadow: 3px 4px 5px 3px rgba(0,0,0,0.51);
+    color: crimson;
+}
+
+.team-card {
+    display: flex;
+    justify-content: center;
+}
+
+.team-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    object-fit: cover;
+    object-position: center;
+}
 
     
 
