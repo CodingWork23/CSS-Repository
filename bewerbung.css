@@ -163,10 +163,11 @@ header {
 
 .team-box {
     background-color: white;
-    width: 33%;
+    width: 28%;
     padding: 10px;
     box-shadow: 3px 4px 5px 3px rgba(0,0,0,0.51);
-    color: crimson;
+    color: black;
+    font-size: 20px;
 }
 
 .team-card {
@@ -181,6 +182,17 @@ header {
     border: 1px solid grey;
     object-fit: cover;
     object-position: center;
+}
+
+.team-tag {
+    display: flex;
+    justify-content: center;
+}
+
+.team-name {
+    text-decoration: underline;
+    font-size: 25px;
+    color: crimson;
 }
 
     
